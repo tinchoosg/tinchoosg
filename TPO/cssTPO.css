@@ -1,0 +1,166 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+  
+h1  {
+    text-align: center;
+}
+  
+a   {
+    color: white;
+}
+  
+header {
+    background-color: rgb(26, 26, 26);
+    padding: 20px;
+    width: auto;
+}
+  
+header h1 {
+    margin: 0;
+    display: flex;
+    color: yellow;
+    justify-content: center;
+}
+  
+nav {
+    display: flex;
+    justify-content: center;
+}
+  
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+  
+nav li {
+    margin: 0 10px;
+}
+  
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+  
+nav a:hover {
+    color: rgb(238, 238, 129);
+}
+  
+
+/* Estilos de la sección de modelos */
+section {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(46, 46, 46);
+}
+  
+#ModelosDestacados {
+    width: 100%;
+    text-align: center;
+}
+
+.modelo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    color: black;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+  
+.modelo img {
+    max-width: 100%;
+    height: auto;
+    border-right: 5px solid yellow;
+    padding-right: 20px;
+}
+  
+.modelo-info {
+    padding: 20px;
+    background-color: yellow;
+    flex-grow: 1; /* Con esta propiedad el recuadro amarillo puede crecer segun el texto que tenga adentro*/
+}
+
+  
+.modelo h3 {
+    margin-top: 0;
+}
+  
+.modelo p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.boton-detalles {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+  
+.boton-detalles:hover {
+    background-color: #333;
+}
+  
+
+  /* Estilos del formulario de contacto */
+form {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+  }
+  
+  form textarea {
+    height: 100px;
+  }
+  
+  form input[type="submit"] {
+    background-color: pink;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: white;
+    color: pink;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  }
